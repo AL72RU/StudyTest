@@ -29,6 +29,8 @@ function App() {
       </ul>
       <button onClick={add}>Добавить</button>
       <Test />
+      <Test />
+      <Test />
     </div>
   );
 };
