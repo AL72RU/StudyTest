@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
+import Test from "./folder/Test";
 
 function App() {
   const [count, setCount] = useState([1, 2, 3]);
@@ -27,6 +28,7 @@ function App() {
         ))}
       </ul>
       <button onClick={add}>Добавить</button>
+      <Test />
     </div>
   );
 };
